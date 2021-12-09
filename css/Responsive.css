@@ -1,7 +1,23 @@
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
+  header .container .nav-item .nav-link:nth-of-type {
+    margin-left: 10px;
+  }
   .banner {
     padding-top: 20px;
     background-color: #fbc600;
+  }
+  .carousel-item h2 {
+    color: rgb(26, 26, 82);
+    padding-bottom: 10px;
+    font-size: 32px;
+  }
+  .carousel-item button {
+    padding: 8px 20px;
+    color: rgb(26, 26, 82);
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    margin-bottom: 15px;
   }
   .banner .row .col-md-6:nth-of-type(1) {
     padding: 20px;
@@ -10,10 +26,36 @@
     padding-top: 42px;
     overflow: hidden;
   }
+  .why-you .row {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
   .why-you .row .col-md-3 {
-    padding: 22px;
+    padding: 20px;
     margin: 7px;
     border: 1px solid rgba(128, 128, 128, 0.137);
+    overflow: hidden;
+  }
+  .why-you .row .col-md-3:hover {
+    border-radius: 5px;
+    border-radius: 8px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+  .why-you .row .col-md-3 img {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .why-you .row .col-md-3:hover img {
+    background-color: rgb(250, 161, 17);
+    padding: 20px;
+    -webkit-filter: none;
+    filter: none;
+    border-radius: 20px;
   }
   .best-selling {
     padding-top: 16px;
@@ -26,21 +68,58 @@
     margin-bottom: 1rem;
     padding: 10px;
   }
+  .best-selling .container .row {
+    padding-bottom: 0px;
+  }
+  .best-selling .card {
+    width: 21rem !important;
+  }
+  .owl-next {
+    position: absolute;
+    top: 44% !important;
+    left: 80% !important;
+  }
+  .owl-prev {
+    position: absolute;
+
+    top: 44% !important;
+    left: 6% !important;
+    transform: translate(-20px, 0px);
+  }
   .Live-online .row .col-md-6:nth-of-type(1) {
     padding-top: 40px;
   }
   .Live-online .row .col-md-6 img {
     margin-top: 5px;
   }
+  .button-footer button {
+    background-color: rgb(236, 236, 236) !important;
+    border: none;
+    padding: 8px 40px;
+    margin-top: -90px;
+  }
+  .Live-online {
+    background-color: #f8f8f8;
+    padding-bottom: 180px;
+    margin-top: 20px;
+  }
+  .Live-online .row .col-md-6 img {
+    margin-top: -14px;
+  }
+
   .Become {
     padding-top: 2px;
   }
   .Become .row .col-md-6:nth-of-type(2) {
-    padding-top: 40px;
+    padding-top: 38px;
   }
   .Upcoming {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 46px;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+  .Upcoming .button-footer {
+    margin-top: 0px;
     overflow: hidden;
   }
   .Upcoming .text h2 {
@@ -61,6 +140,32 @@
   .Focus .container .row {
     padding-top: 10px;
   }
+  .Focus .row .col-md-4 {
+    text-align: center;
+    padding: 30px;
+  }
+  .Explore {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #f29a49;
+  }
+  .Explore p {
+    margin-bottom: 25px;
+    color: rgb(19, 19, 71);
+    font-weight: 500;
+    color: #5e5d5f;
+    font-size: 18px;
+  }
+  .Inspired {
+    padding-top: 4px;
+    display: relative;
+  }
+  .Inspired .col-md-6:nth-of-type(1) h2 {
+    padding-top: 15px;
+    padding-left: 23px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+  }
   .Explore .row .col-md-6:nth-of-type(1) {
     margin-bottom: 30px;
   }
@@ -69,6 +174,38 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
+  }
+  .Growing {
+    padding-top: 8px;
+  }
+  .Growing .col-md-6 h2 {
+    padding-top: 18px;
+    padding-left: 0px;
+    font-size: 28px;
+  }
+  .Growing .col-md-6 {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 17px;
+  }
+  .Growing .col-md-6 h1 {
+    margin-bottom: 0px;
+    color: #303030;
+    font-size: 38px;
+  }
+  .World {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .World .row .col-md-3 {
+    text-align: center;
+    padding: 35px;
+    margin-left: 49px;
+    margin-right: 46px;
+    margin-top: 20px;
+
+    border: 0.5px solid rgb(128 128 128 / 14%);
+    border-radius: 8px;
   }
   .Inspired .col-md-6:nth-of-type(1) .text-box {
     width: 100% !important;
@@ -102,46 +239,153 @@
     transform: translate(0px, -65px);
     display: none;
   }
+  .Subscribe {
+    padding-top: 29px;
+    padding-bottom: 30px;
+    display: relative;
+    background-color: #4c5fe4;
+    z-index: -30;
+  }
+  .Subscribe .col-md-6 h2 {
+    color: white;
+    margin-left: 28px;
+  }
+  .Subscribe .col-md-6:nth-of-type(2) {
+    padding-left: 40px;
+  }
   .start-learning .col-md-12 img:nth-of-type(2) {
     position: absolute;
     display: none;
   }
+  footer:nth-of-type(1) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .carousel-control-prev {
+    display: none !important;
+  }
+  .carousel-control-next {
+    display: none !important;
+  }
 }
 
-@media (min-width: 768px) {
-  .Subscribe .col-md-6:nth-of-type(2) .checkbox img {
-    position: absolute;
-    z-index: 1;
-    left: 63.8%;
-    display: none;
-    transform: translate(0px, -65px);
+@media (max-width: 768px) {
+  .banner .row .col-md-6:nth-of-type(1) {
+    padding-left: 100px;
+    padding-top: 9px;
   }
-  .World .row .col-md-3 {
-    text-align: center;
-    padding: 5px;
-    border: 0.5px solid rgba(128, 128, 128, 0.424);
-    margin: 25px;
+  .carousel-item h2 {
+    color: rgb(26, 26, 82);
+    padding-bottom: 10px;
+    font-size: 26px;
   }
-  .Inspired .col-md-6:nth-of-type(1) h2 {
+  .why-you .row .col-md-3 {
+    padding: 7px;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+  }
+  .Live-online .row .col-md-6:nth-of-type(1) {
+    padding-top: 58px;
+  }
+  .Become .row .col-md-6:nth-of-type(2) {
+    padding-top: 147px;
+  }
+  .Upcoming .row .col-md-3 {
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 15px;
+  }
+  .Focus {
     padding-top: 30px;
-    padding-left: 46px;
-    padding-right: 96px;
-    padding-bottom: 50px;
+    padding-bottom: 12px;
+    overflow: hidden !important;
+    background-color: #f8f7f3;
   }
   .Focus .row .col-md-4 {
     text-align: center;
-    padding: 8px;
+    padding: 10px;
   }
-  .Become .row .col-md-6:nth-of-type(2) {
-    padding-top: 120px;
+  .Growing .col-md-6 h2 {
+    padding-top: 2px;
+    padding-left: 42px;
+    font-size: 32px;
   }
-  .Live-online .row .col-md-6 img {
-    margin-top: -33px;
+  .World .row .col-md-3 {
+    text-align: center;
+    padding: 11px;
+    margin-left: 20px;
+    margin-right: 21px;
+    margin-top: 20px;
+    border: 0.5px solid rgb(128 128 128 / 14%);
+    border-radius: 8px;
   }
-  .why-you .row .col-md-3 {
-    padding: 35px;
-    margin: 20px;
-    border: 1px solid rgba(128, 128, 128, 0.137);
+  .Explore {
+    padding-top: 45px;
+    padding-bottom: 80px;
+    background-color: #f29a49;
+  }
+  .Explore img {
+    margin-top: 40px;
+  }
+  .World .row .col-md-3:nth-of-type(1) img {
+    background-color: orange;
+    padding: 13px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+  .Inspired {
+    padding-top: 23px;
+    padding-bottom: 30px;
+    display: relative;
+  }
+  .Inspired .col-md-6:nth-of-type(1) h2 {
+    padding-top: 10px;
+    padding-left: 91px;
+    color: #16497a;
+    font-size: 25px;
+    padding-right: 18px;
+    padding-bottom: 40;
+  }
+  .Inspired .col-md-6:nth-of-type(1) .text-box {
+    width: 500px;
+    padding: 26px;
+    color: white;
+    background-color: #00376d;
+    margin-left: 33px;
+  }
+  .Inspired .col-md-6 .img-fluid {
+    max-width: 100%;
+    margin-top: 35px;
+    z-index: -2;
+    height: auto;
+  }
+  .Subscribe .col-md-6:nth-of-type(2) .checkbox img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 63.8%;
+    transform: translate(0px, -65px);
+  }
+  .Subscribe .col-md-6 h2 {
+    color: white;
+    font-size: 20px;
+    margin-left: 46px;
+    margin-top: 20px;
+  }
+  .Subscribe {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: relative;
+    background-color: #4c5fe4;
+    z-index: -30;
+  }
+  .carousel-control-prev {
+    display: none !important;
+  }
+  .carousel-control-next {
+    display: none !important;
   }
 }
 
