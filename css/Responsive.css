@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   header .container .nav-item .nav-link:nth-of-type {
     margin-left: 10px;
   }
@@ -126,7 +126,7 @@
     padding: 10px;
   }
   .Upcoming .row .col-md-3 {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
   .Focus {
@@ -269,7 +269,7 @@
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .banner .row .col-md-6:nth-of-type(1) {
     padding-left: 100px;
     padding-top: 9px;
@@ -387,7 +387,7 @@
   .carousel-control-next {
     display: none !important;
   }
-}
+} */
 
 @media (min-width: 992px) {
 }
