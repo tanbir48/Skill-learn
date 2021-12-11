@@ -61,17 +61,19 @@
   opacity: 0.25;
 }
 
-.slick-prev:before,
-.slick-next:before {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1;
-
-  opacity: 1;
-  color: black;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.slick-prev::before,
+.slick-next::before {
+  font-family: FontAwesome;
+}
+.slick-prev::before {
+  /* fa-arrow-circle-left */
+  content: "\f053";
+  font-size: 16px;
+}
+.slick-next::before {
+  /* fa-arrow-circle-right */
+  content: "\f054";
+  font-size: 16px;
 }
 
 .slick-prev {
@@ -80,12 +82,6 @@
 [dir="rtl"] .slick-prev {
   left: auto;
 }
-.slick-prev:before {
-  content: "<";
-}
-[dir="rtl"] .slick-prev:before {
-  content: ">";
-}
 
 .slick-next {
   right: -5px;
@@ -93,12 +89,6 @@
 [dir="rtl"] .slick-next {
   right: auto;
   left: -25px;
-}
-.slick-next:before {
-  content: ">";
-}
-[dir="rtl"] .slick-next:before {
-  content: "<";
 }
 
 /* Dots */
